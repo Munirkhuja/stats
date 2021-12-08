@@ -1,5 +1,5 @@
-module github.com/Munirkhuja/stats
+module github.com/Munirkhuja/stats/v2
 
 go 1.17
 
-require github.com/Munirkhuja/bank v0.0.0-20211208143926-14d4d5bbe451 // indirect
+require github.com/Munirkhuja/bank/v2 v2.0.1 // indirect

@@ -1,4 +1,2 @@
-github.com/Munirkhuja/bank v0.0.0-20211208112803-5dfe2b52a58b h1:wMpYdmffaQBbZORa/QI33ANRG9hix9aTtkpo3vyvDSA=
-github.com/Munirkhuja/bank v0.0.0-20211208112803-5dfe2b52a58b/go.mod h1:enMwBRqk+sHqOHWaPGVujadkFYqI7mQTliafDA7VHAM=
-github.com/Munirkhuja/bank v0.0.0-20211208143926-14d4d5bbe451 h1:v5MybF5/NOzW4Wg+izhJPy1yGfdfrSQF8PfNWGhuACk=
-github.com/Munirkhuja/bank v0.0.0-20211208143926-14d4d5bbe451/go.mod h1:enMwBRqk+sHqOHWaPGVujadkFYqI7mQTliafDA7VHAM=
+github.com/Munirkhuja/bank/v2 v2.0.1 h1:vyMXKI8ohsr5WXPr/3zWmUmLTenCUA+TxsY4HsYg8q4=
+github.com/Munirkhuja/bank/v2 v2.0.1/go.mod h1:uPZCWUj8KB2ujtjrnMA2llD7xvuCYAddceQNVJr18P0=
