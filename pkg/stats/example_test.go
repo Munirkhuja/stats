@@ -20,7 +20,7 @@ func ExampleAvg() {
 	//Output: 125400
 }
 
-func TestCategoriesAvg(t *testing.T) {	
+func TestCategoriesAvgEx(t *testing.T) {	
 	payments := []types.Payment{
 		{ID: 0, Amount: 10_00, Category: "phone", Status: types.StatusOk},
 		{ID: 1, Amount: 10_00, Category: "phone", Status: types.StatusFail},
