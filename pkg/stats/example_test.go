@@ -32,14 +32,31 @@ func TestCategoriesAvgEx(t *testing.T) {
 	}
 	expected := map[types.Category]types.Money{
 		"phone":5_33,
-		"auto":333_500,
+		"auto":3_335_00,
 	}
 	result := CategoriesAvg(payments)
 	if !reflect.DeepEqual(result,expected) {
 		t.Errorf("invalid result, expected: %v actual: %v",expected,result)
 	}
 }
-
+func TestPeriodsDynamicEx(t *testing.T) {	
+	first := map[types.Category]types.Money{
+		"auto": 10_00,
+		"food": 20_00,
+	}
+	second := map[types.Category]types.Money{
+		"auto": 5_00,
+		"food": 3_00,
+	}
+	expected := map[types.Category]types.Money{
+		"auto":-5_00,
+		"food":-17_00,
+	}
+	result := PeriodsDynamic(first,second)
+	if !reflect.DeepEqual(result,expected) {
+		t.Errorf("invalid result, expected: %v actual: %v",expected,result)
+	}
+}
 func ExampleTotalInCategory() {
 	
 	payments := []types.Payment{
